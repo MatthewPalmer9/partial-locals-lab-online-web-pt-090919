@@ -23,7 +23,7 @@ class StudentsController < ApplicationController
   def index
     @students = Student.search(params[:query])
     render 'index'
-  end
+  end 
 
   private
 
